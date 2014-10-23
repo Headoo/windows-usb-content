@@ -1,7 +1,8 @@
 <?php
-namespace EdouardKombo;
+namespace src;
 
 use \Endroid\QrCode\QrCode as qrCode;
+use \src\WatImage as WatImage;
 
 class Qaw {
     
@@ -84,6 +85,7 @@ class Qaw {
     function __construct() 
     {
         $this->qrCode = new qrCode();
+        $this->watImage = new WatImage();
     }
     
     /**

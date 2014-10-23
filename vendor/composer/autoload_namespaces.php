@@ -7,5 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Endroid' => array($vendorDir . '/endroid/qrcode/src'),
-    'EdouardKombo\\QrcodeAsWatermark\\' => array($baseDir . '/'),
+    'EdouardKombo' => array('/src'),
 );

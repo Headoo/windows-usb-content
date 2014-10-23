@@ -10,8 +10,7 @@ $picturesFolder             = (string) (filter_input(INPUT_GET, 'mediaPath') ===
 $doneFolder                 = (string) (filter_input(INPUT_GET, 'mediaPath') === '') ? 'saved' : filter_input(INPUT_GET, 'doneFolder') ;
 $recoveryFolder             = (string) (filter_input(INPUT_GET, 'mediaPath') === '') ? 'saved' : filter_input(INPUT_GET, 'recoveryFolder') ;
 
-$qaw                        = new EdouardKombo\Qaw();
-$qaw->watImage              = new Watimage();
+$qaw                        = new src\Qaw();
 $qaw->rightPath             = __DIR__ . '/../../../../';
 $qaw->rightHardDrive        = 'C';
 $qaw->qrCodeWidthRatio      = 33;

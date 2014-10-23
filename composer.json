@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-0": {
-            "EdouardKombo": "/src"
+            "src": "/src"
         }
     },
     "minimum-stability": "dev"     

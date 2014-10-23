@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "99a4ac929ba5264549d17586b8abd018",
+    "hash": "653eaf913b19e7ba05957b7fd78a5f00",
     "packages": [
         {
             "name": "endroid/qrcode",
