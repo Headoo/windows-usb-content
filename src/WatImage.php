@@ -1,6 +1,7 @@
 <?php
 namespace src;
 
+use \Exception as Exception;
 
 class Watimage
 {
