@@ -1,0 +1,384 @@
+-------------------Changelog------------------
+		~ : changed 		+ : added
+		- : removed 		# : fixed
+***********************************************************
+1.6.8.4 beta (27.08.2014):
+	+support for Dropbox version 2.10.29
+	#reindexing the first time when using DropboxPortableAHK on a machine with a regular Dropbox setup
+	+new update mirror
+	+enable automatic download of Dropbox application files during beta
+***********************************************************
+1.6.8.3 beta (06.07.2014):
+	#SQLite error an network drives
+	#waiting for Dropbox to complete its setup on slow machines
+	+restart explorer.exe after Dropbox setup
+***********************************************************
+1.6.8.2 beta (25.05.2014):
+	-disable automatic download of Dropbox application files during beta
+	+check for minimum supported version
+	#SyncAndGo
+	#German translation
+	#issue when using DropboxPortableAHK on multiple machines or user accounts
+	+general Dropbox update prevention that works for any future version
+	+Notification about possible issues with Desktop icons during Dropbox setup
+	#setting encryption key during setup in some cases
+	#minor bug fixes
+***********************************************************
+1.6.8.1 beta (14.05.2014):
+	+support for Dropbox version 2.4.11
+***********************************************************
+1.6.8.0 (25.02.2014):
+	#Dropbox update prevention for 2.6.3
+***********************************************************
+1.6.7.0 (19.01.2014):
+	#Dropbox update prevention for 2.4.11
+***********************************************************
+1.6.6.0 (26.12.2013):
+	#Dropbox update prevention for 2.4.10
+	+Option to not wait for an Internet Connection on errors (not an option in the settings for now, must be configured in .dbfiles\config.ini)
+***********************************************************
+1.6.5.0 (20.10.2013):
+	#Dropbox update prevention for 2.4.3
+	~Toggle SyncAndGo behavior when using the hotkey or command line parameter if it is enabled by default in the settings
+	~Internet connection check now uses the update servers
+***********************************************************
+1.6.4.0 (18.08.2013):
+	#Dropbox update prevention for 2.2.13
+	#Error about not deletable Dropbox folder during setup
+***********************************************************
+1.6.3.0 (09.07.2013):
+	#Dropbox update prevention for 2.2.9
+	#Dropbox update prevention for 2.0.22
+***********************************************************
+1.6.2.0 (30.06.2013):
+	#Dropbox update prevention for 2.2.8
+	#Russian translation
+***********************************************************
+1.6.1.0 (05.06.2013):
+	#Dropbox update prevention for 2.1.19
+	#custom Dropbox icons
+***********************************************************
+1.6.0.0 (19.05.2013):
+	#Dropbox update prevention for 2.0.8
+	#German translation
+	+check to prevent DropboxPortableAHK being inside the Dropbox folder
+	+6 more Dropbox icons to choose from
+	+Russian readme
+	+Swedish translation
+	#Dropbox update prevention for 2.0.10
+	#Dropbox update prevention for 2.0.16
+***********************************************************
+1.5.10.0 (20.04.2013):
+	#Dropbox update prevention for 2.1.11
+***********************************************************
+1.5.9.0 (12.04.2013):
+	#Dropbox update prevention for 2.1.9
+	+French readme
+***********************************************************
+1.5.8.0 (08.04.2013):
+	#Dropbox update prevention for 2.1.8
+***********************************************************
+1.5.7.0 (04.04.2013):
+	#Dropbox update prevention for 2.1.6
+	#Dropbox update prevention for 2.1.7
+***********************************************************
+1.5.6.0 (22.03.2013):
+	#Dropbox update prevention for 1.6.18
+	#Dropbox update prevention for 2.0.0
+***********************************************************
+1.5.5.0 (02.02.2013):
+	#Dropbox update prevention for 1.6.16
+	+More colors for multiple instances
+***********************************************************
+1.5.4.0 (21.01.2013):
+	#Dropbox update prevention for 1.6.15
+***********************************************************
+1.5.3.0 (16.01.2013):
+	#Dropbox update prevention for 1.6.14
+***********************************************************
+1.5.2.0 (12.01.2013):
+	#Dropbox update prevention for 1.6.13
+***********************************************************
+1.5.1.0 (02.01.2013):
+	#Dropbox update prevention for 1.6.11
+***********************************************************
+1.5.0.0 (31.10.2012):
+	-Settings to enable Dropbox update, it is not supported
+	-Option to use previously used Dropbox configuration file
+	+clearchache parameter to empty the Dropbox cache
+	#Dropbox update prevention
+	#Setup ui on different scaling modes
+***********************************************************
+1.4.9.0 (05.06.2012):
+	#Dropbox update prevention for Dropbox v1.4.7
+	#Some mistakes in language files
+***********************************************************
+1.4.8.0 (27.04.2012):
+	#Dropbox update prevention
+	#Typo in Japanese language file
+***********************************************************
+1.4.7.0 (16.04.2012):
+	#Dropbox update prevention
+	+Greek translation (by Thanasis Tsapanoglou)
+***********************************************************
+1.4.6.0 (29.03.2012):
+	+Option to select between different Dropbox icons
+	~Dropbox update prevention
+	+Option to force a language
+	+Option to choose between Run and RunWait for user applications
+	~Italian translation (by UomoMacchina)
+	#Internet connection check for some users
+	#code cleanup
+***********************************************************
+1.4.5.0 (05.03.2012):
+	+Download missing Dropbox files
+	+Retry option for failed downloads
+***********************************************************
+1.4.4.0 (25.02.2012):
+	#Dropbox update prevention
+***********************************************************
+1.4.3.0 (02.02.2012):
+	+Spanish translation (by kot7k)
+	+Japanese translation (by otterb)
+	#size of setup gui
+	#Dropbox update prevention
+***********************************************************
+1.4.2.0 (15.01.2012):
+	+Simplified Chinese language (by ToadLoading (Liu Ding))
+	+multiple urls for Internet connection check
+	#setup could not be run again if the Dropbox version was unsupported
+	#WMI error on very restricted machines
+***********************************************************
+1.4.1.0 (28.12.2011):
+	+Portuguese language (by dinism)
+	~url for Internet connection check from http://www.google.de/ to http://www.dropbox.com/
+	-additional note of new homepage after update
+***********************************************************
+1.4.0.0 (19.12.2011):
+	+Polish language (by mail4skwarka)
+	+Russian language (by Alexander Ermolenko)
+	~wait for Internet connection if DropboxPortableAHK was setup before instead of popping up the setup screen
+	~hide proxy password in the gui by default
+	#improved Dropbox update prevention
+	+feature to shutdown or hibernate the Computer after SyncAndGo
+***********************************************************
+1.3.7.0 (14.11.2011):
+	+support for proxys defined in system connection with authentication
+	+French language file (by Erwan L.)
+	+'-help' and '/?' command line switches to display command line usage
+	#best connection saving bug
+	#empty Dropbox configuration file
+	#not always deleted the oldest debug files
+	#some gui sizes
+	#not working download counter
+	~debug files are now stored in the '.dbfiles\' subfolder
+	~homepage link
+***********************************************************
+1.3.6.0 (22.10.2011):
+	#missing text on Dropbox setup button
+	#missing Python25.dll error
+	+restart Dropbox if it was killed by the upgrade process
+	#NTVDM error
+	#check for maximum supported Dropbox version
+***********************************************************
+1.3.5.0 (07.10.2011):
+	~compiler version to 1.1.4.1
+	~Dropbox update prevention
+	+unregister Dropbox extension
+	+check if Dropbox folder is set to the root directory
+	#deleted Dropbox configuration if decryption password was wrong
+	+check for maximum supported Dropbox version
+***********************************************************
+1.3.4.0 (22.09.2011):
+	+Italian translation (by Daniele F.)
+	#German translation
+	#error while setting a Dropbox path with Unicode characters
+	#error while updating a setup with spaces in the path
+***********************************************************
+1.3.3.0 (17.09.2011):
+	+muliple language support
+	+German translation
+	+Dutch translation (by Thomas V.)
+	#English translation (by Lloyd B.)
+	~update routine
+	#more precision for SyncAndGo
+	+option to eject the drive after SyncAndGo
+	+method to prevent Dropbox from updating itself
+	#moveability of download window
+	+option to encrypt the Dropbox database
+	-opportunity to use the context menu
+***********************************************************
+1.3.2.0 (29.07.2011):
+	+run SyncAndGo after update if it was enabled before
+	#recognition of correct internet connection
+	#start of setup if no path was found in db
+	#Dropbox monitoring
+	#enabling 'next' button after going back before last setup step
+	#insert user applications in setup
+	~description field of version info
+***********************************************************
+1.3.1.0 (26.07.2011):
+	-check for network drive
+***********************************************************
+1.3.0.0 (26.07.2011):
+	+write size of downloaded file to debug log
+	#issues with some non ascii characters in file path
+	+check for dropbox folder on a network drive
+	+run user applications before startup and before exit
+	+complete new setup procedure -> shift on start up / -setup parameter -> run setup again
+	+SyncAndGo -> ctrl on start up / ini key / -SyncAndGo parameter
+	+check for enough free space on file write
+	+editable startup delay
+	~file encoding to UTF-8
+	~debug file formatting
+	#moving of dropbox folder after destination had changed
+	+connection profiles
+	+increased performance dramatically on slow usb devices
+	+reduced memory usage
+***********************************************************
+1.2.6.0 (14.05.2011):
+	#dropbox application files moving
+***********************************************************
+1.2.5.0 (25.04.2011):
+	+movable progress window
+	~style of progress window
+***********************************************************
+1.2.4.0 (25.04.2011):
+	#md5 check
+***********************************************************
+1.2.3.0 (24.04.2011):
+	#dropbox folder path creation
+	#startup delay
+	+support for very long paths in path preview (setup)
+***********************************************************
+1.2.2.0 (20.04.2011):
+	+option for absolute path for dropbox folder, use it with caution
+	+option for automatic updates
+	#stop monitoring if dropbox closed before
+	#check for internet connection
+***********************************************************
+1.2.1.0 (16.04.2011):
+	~methods for moving / copying folders
+	#moving of dropbox folder after installation
+	+fallback method for very restricted user accounts
+	+new config.ini value "fallback_dontask"
+	+distinction between XP / Vista,7 while searching for dropbox folder
+	+check for internet connection on startup
+***********************************************************
+1.2.0.0 (12.04.2011):
+	-vbscript file
+	+code cleanup
+	~compiler
+	+support of special characters (like è) in filepath
+	+keeping of 3 debug logs
+	+timeout (10s) for update notifications
+	+option to unzip dropbox files manually if automatic mathod failed
+	#recognition of dropbox startup
+	+7zip as unzipping method (http://www.7-zip.org/)
+***********************************************************
+1.1.1.0 (05.04.2011):
+	+temporary vbscript file back, if unzipping failed
+	#version comparison
+***********************************************************
+1.1.0.0 (03.04.2011):
+	-unused libraries
+	+proxy support (set up in .dbfiles\config.ini)
+	+check for internet connection after server error
+	~unit at download progress bar
+	+block environment changes until other DropboxPortableAHK instances have started up
+	+change global environment only if appdata is not a subfolder of userprofile
+	#flickering of download progress bar in Windows Vista / 7
+	+restore registry only if a value has changed
+	+removing of desktop shortcuts created by the dropbox installation on Windows XP
+	#moving of dropbox application files
+	+another method of moving dropbox application files
+	-temporary vbscript file
+	#closing of dropbox if protection is disabled
+***********************************************************
+1.0.5.0 (24.03.2011):
+	#proper fix for 64-bit systems
+***********************************************************
+1.0.4.0 (24.03.2011):
+	+additional debug values
+	#temporarily fix for 64-bit systems
+***********************************************************
+1.0.3.0 (24.03.2011):
+	+beta version checked at installation if chosen on first start
+	~detection of successfully running dropbox -> no more startup failures
+	+removing of staying dropbox icon in tray
+	+closing of dropbox after closing of DropboxPortableAHK
+	+timestamp to debug entries
+	+option to disable error message after dropbox folder protection
+***********************************************************
+1.0.2.0 (19.03.2011):
+	#moving of dropbox application files
+	#probably: proxy errors
+	+support of network drives
+	+choice to download beta files on first start
+	+removing of empty dropbox folder created by setup
+***********************************************************
+1.0.1.0 (14.03.2011):
+	#unzipping error on some systems
+***********************************************************
+1.0.0.0 (13.03.2011):
+	+opportunity to copy complete old data
+	+set up configuration in setup
+	+moved instructions from config file to readme
+	+progress bar for moving / copying dropbox folder
+	+integrated necessary files into executable
+	+update dropbox as well
+	+do not provide dropbox in zip -> download if missing
+	+progress bar for download
+	~removed option for debug mode -> always enabled
+	#probably fixed EXEC error on installation
+	#error at running update
+	~made errors from sqlite easier to read
+***********************************************************
+0.5.0.0 (04.03.2011):
+	~resorted code
+	+additional debugging messages
+	+check for enough free space
+	+live preview of resulting path at setup
+	+option to choose whether to copy dropbox folder or to move
+	+check for downloads
+	#issue with a damaged config after missing updates
+	~configuration of dropbox path (see .dbfiles\config.ini)
+	-AppData variable of configuration file
+***********************************************************
+0.4.1.0 (28.02.2011):
+	+option for creation of an autorun configuration for usb-sticks (see .dbfiles\config.ini)
+***********************************************************
+0.4.0.0 (24.02.2011):
+	+dropbox folder protection
+	+extended autoupdater to update the configuration file as well
+	+new ways of declaring the dropbox folder path
+***********************************************************
+0.3.0.0 (22.02.2011):
+	+autoupdate
+***********************************************************
+0.2.4.0:
+	#detection of closed dropbox process -> no locked dropbox folder anymore
+***********************************************************
+0.2.3.0:
+	#moving folder from one partition to an other
+***********************************************************
+0.2.2.0:
+	+check if existing dropbox folder matches currently dropbox folder
+	~more accurate detection of finished dropbox setup
+	+check for already existing new dropbox folder
+***********************************************************
+0.2.1.0:
+	~detection of finished dropbox setup
+***********************************************************
+0.2.0.0:
+	+installation routine
+	+possibility to move your existing dropbox folder to the the portable directory
+	+recovery of old dropbox_path entry in database if something went wrong
+	~dialog boxes
+	+debug mode
+***********************************************************
+0.1.1.0:
+	+check for configuration file and dropbox application folder
+***********************************************************
+0.1.0.0:
+	initial release

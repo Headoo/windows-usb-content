@@ -1,0 +1,342 @@
+﻿11:57.09	start running DropboxPortableAHK version 1.6.8.4 (73)
+11:57.09	start directory C:\wamp\www\windows-usb-content\DropboxPortableAHK
+11:57.09	-----system info-----
+11:57.09		OS: WIN_7
+11:57.09		OSType: WIN32_NT
+11:57.09		Type: win64
+11:57.09		Language: 040C
+11:57.09		Free Space: 877451542528
+11:57.09		Fingerprint: 2E09E643A7387ACD
+11:57.09	-----end of system info-----
+
+11:57.09	-----start managing config file: C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\config.ini-----
+11:57.09	-----finished managing config file-----
+
+11:57.09	-----removing old saved configs-----
+11:57.09	-----finished removing old saved configs-----
+
+11:57.09	found saved connection settings for this pc (2E09E643A7387ACD), insert as top priority
+11:57.09	Startup Delay: 0
+11:57.09	-----start connecting to the server-----
+11:57.09		using next connection profile
+11:57.09		-----start getting next connection-----
+11:57.09			no proxy address found, using system connection
+11:57.09			no authorization needed
+11:57.09		-----finished getting next connection-----
+
+11:57.09		attempt: 1
+11:57.09		-----start getting update file-----
+11:57.09			use server 1
+11:57.10		-----finished getting update file-----
+
+11:57.10		could connect to the server
+11:57.10	-----finished connecting to the server-----
+
+11:57.10	could connect to the Internet, save connection 1 and break
+11:57.10	-----save initial environment-----
+11:57.10	-----saved-----
+
+11:57.10	-----start setting up environment-----
+11:57.10		old appdata: C:\Users\Headoo Allinone02\AppData\Roaming
+11:57.10		old userprofile: C:\Users\Headoo Allinone02
+11:57.10		appdata is a subfolder of USERPROFILE
+11:57.10		new appdata: C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\profile\AppData\Roaming
+11:57.10		new homedrive: C:
+11:57.10		new homepath \wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\profile
+11:57.10		new userprofile: C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\profile
+11:57.10		new temp: C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\profile\Temp
+11:57.10	-----finished setting up environment-----
+
+11:57.10	-----restore initial environment-----
+11:57.10	-----restored-----
+
+11:57.10	update enabled: on
+11:57.10	-----start updating application-----
+11:57.10		-----start checking for update-----
+11:57.10		-----finished checking for update-----
+
+11:57.10	-----no update found for application-----
+
+11:57.10	extract sqlite3.dll
+11:57.10	successfully extracted sqlite3.dll to C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\sqlite3.dll
+11:57.10	extract cryptedDropbox.exe
+11:57.10	successfully extracted cryptedDropbox.exe to C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\cryptedDropbox.exe
+11:57.10	standard mode active
+11:57.10	-----searching for dropbox application files-----
+11:57.10		executing patch
+11:57.10		patch finished
+11:57.10	-----found dropbox application files at C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\profile\AppData\Roaming\Dropbox\bin-----
+
+11:57.10	found dropbox files at: C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\profile\AppData\Roaming\Dropbox\bin
+11:57.10	-----start matching new and old dropbox application files-----
+11:57.10		new appdata: AppData\Roaming\Dropbox
+11:57.10		old appdata: AppData\Roaming\Dropbox
+11:57.10		new appdata does match old appdata
+11:57.10	-----finished matching appfiles-----
+
+11:57.10	successfull match for dropbox files
+11:57.10	-----start unregistering the Dropbox extension, file: C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\profile\AppData\Roaming\Dropbox\bin\DropboxExt64.24.dll-----
+11:57.10		-----start unregistering dll: C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\profile\AppData\Roaming\Dropbox\bin\DropboxExt64.24.dll-----
+11:57.10		-----finished unregistering dll, result: 3-----
+
+11:57.10		dll was the dummy file
+11:57.10		original file exists, use it
+11:57.10		-----start unregistering dll: C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\profile\AppData\Roaming\Dropbox\bin\DropboxExt64.24.dll.notavailable-----
+11:57.10		-----finished unregistering dll, result: 0-----
+
+11:57.10	-----finished unregistering the Dropbox extension, result: 1-----
+
+11:57.10	-----checking for dropbox update-----
+11:57.10		update file already exists
+11:57.10		-----start checking for update-----
+11:57.10		-----finished checking for update-----
+
+11:57.10		no update found for db
+11:57.10	-----finished dropbox update-----
+
+11:57.10	own version: 2.10.30.0 - max version: 2.10.30.0 - max version server: 2.10.30.0 - max version static: 2.10.29.0 - min version static: 2.10.29.0
+11:57.10	-----start copying fingerprint copy from: C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\configs\2E09E643A7387ACD.dbx to: .dbfiles\profile\AppData\Roaming\Dropbox\instance1\config.dbx-----
+11:57.10		copying not enabled
+11:57.10	-----finished copying fingerprint copy-----
+
+11:57.10	config file does not exist, start setup
+11:57.10	-----start closing upgrading processes-----
+11:57.10		no upgrade processes are running
+11:57.10	-----finished closing upgrading processes-----
+
+11:57.10	-----start creating new dropbox path out of: \Dropbox-----
+11:57.10		new path: C:\Dropbox
+11:57.10	-----finished creating new dropbox path-----
+
+11:57.10	-----printDropboxCacheFolder: C:\Dropbox-----
+11:57.10	-----finished printDropboxCacheFolder-----
+
+11:57.10	-----start installation-----
+11:57.10		-----start retrieving dropbox path-----
+11:57.10			creating DropboxDB with db path: .dbfiles\profile\AppData\Roaming\Dropbox\instance1\config.dbx
+11:57.10			database does not exist, do nothing
+11:57.10			output path: 
+11:57.10		-----finished getting dropbox path-----
+
+11:57.10		already configured: 0
+11:57.10		-----searching for dropbox application files-----
+11:57.10			executing patch
+11:57.10			patch finished
+11:57.10		-----found dropbox application files at C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\profile\AppData\Roaming\Dropbox\bin-----
+
+11:57.10		own version: 2.10.30.0 - max version: 2.10.30.0 - max version server: 2.10.30.0 - max version static: 2.10.29.0 - min version static: 2.10.29.0
+11:57.13		-----start connecting to the server-----
+11:57.13			using next connection profile
+11:57.13			-----start getting next connection-----
+11:57.13				no proxy address found, using system connection
+11:57.13				no authorization needed
+11:57.13			-----finished getting next connection-----
+
+11:57.13			attempt: 1
+11:57.13			-----start getting update file-----
+11:57.13				use server 1
+11:57.13			-----finished getting update file-----
+
+11:57.13			could connect to the server
+11:57.13		-----finished connecting to the server-----
+
+11:57.22		-----searching for dropbox application files-----
+11:57.22			executing patch
+11:57.22			patch finished
+11:57.22		-----found dropbox application files at C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\profile\AppData\Roaming\Dropbox\bin-----
+
+11:57.22		own version: 2.10.30.0 - max version: 2.10.30.0 - max version server: 2.10.30.0 - max version static: 2.10.29.0 - min version static: 2.10.29.0
+11:57.29		-----start managing config file: C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\config.ini-----
+11:57.29		-----finished managing config file-----
+
+11:57.29		-----start deleting old configuration-----
+11:57.29		-----finished deleting old configuration-----
+
+11:57.29	-----finished catching user input-----
+
+11:57.29	returned from gui
+11:57.29	-----start creating new dropbox path out of C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\config.ini-----
+11:57.29		path: \Dropbox
+11:57.29		-----start creating new dropbox path out of: \Dropbox-----
+11:57.29			new path: C:\Dropbox
+11:57.29		-----finished creating new dropbox path-----
+
+11:57.29		new path: C:\Dropbox
+11:57.29	-----finished creation of new path-----
+
+11:57.29	newPath: C:\Dropbox
+11:57.29	-----backupRegistryKey-----
+11:57.29		-----readUserKey-----
+11:57.29		-----read key-----
+
+11:57.29	-----success: 1-----
+
+11:57.29	-----backupRegistryKey-----
+11:57.29		-----readUserKey-----
+11:57.29		-----read key-----
+
+11:57.29	-----success: 1-----
+
+11:57.30	starting dropbox
+11:57.30	-----run dropbox-----
+11:57.31		run user commands before
+11:57.31		-----start running user commands before-----
+11:57.31			-----start running user commands-----
+11:57.31			-----finished running user commands-----
+
+11:57.31		-----finished running user commands before-----
+
+11:57.31		creating DropboxUpdatePrevention with Dropbox path: C:\Dropbox
+11:57.31		cache folder did not exist, created it: 0 - 2
+11:57.31		-----backing up registry-----
+11:57.31			Save:C:\Users\Headoo Allinone02\AppData\Roaming   to: registry_appdata_original
+11:57.31			Save:C:\Users\Headoo Allinone02\Documents   to: registry_personal_original
+11:57.31			Save:C:\Users\Headoo Allinone02\AppData\Local   to: registry_lappdata_original
+11:57.31			Save:C:\Users\Headoo Allinone02\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup   to: registry_startup_original
+11:57.31		-----finished backing up registry-----
+
+11:57.31		-----start setting up environment-----
+11:57.31			old appdata: C:\Users\Headoo Allinone02\AppData\Roaming
+11:57.31			old userprofile: C:\Users\Headoo Allinone02
+11:57.31			appdata is a subfolder of USERPROFILE
+11:57.31			new appdata: C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\profile\AppData\Roaming
+11:57.31			new homedrive: C:
+11:57.31			new homepath \wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\profile
+11:57.31			new userprofile: C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\profile
+11:57.31			new temp: C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\profile\Temp
+11:57.31		-----finished setting up environment-----
+
+11:57.31		-----start restoring registry-----
+11:57.31			not necessary to restore
+11:57.31		-----finished restoring registry-----
+
+11:57.31		-----start changing registry-----
+11:57.31			registry change is not enabled
+11:57.31		-----finished changing registry-----
+
+11:57.31		started dropbox
+11:57.31		-----restore initial environment-----
+11:57.31		-----restored-----
+
+11:57.31	-----started dropbox, return: 13940-----
+
+11:57.31	-----start monitoring 13940-----
+11:57.36		found window
+11:58.18		window closed
+11:58.18		check for changed dropbox path
+11:58.18		creating DropboxDB with db path: .dbfiles\profile\AppData\Roaming\Dropbox\instance1\config.dbx
+11:58.18		check encryption key validity
+11:58.18		encryption key is valid
+11:58.18		saveRegistryKeyToFile
+11:58.18		saveRegistryKeyToFile
+11:58.18		hasRegistryKeyBackup: 1
+11:58.18		-----restoreRegistryKey-----
+11:58.18			backup exists
+11:58.18		-----restored-----
+
+11:58.18		-----restoreRegistryKey-----
+11:58.18			backup exists
+11:58.18		-----restored-----
+
+11:58.18		-----start retrieving dropbox path-----
+11:58.18			output path: C:\Users\Headoo Allinone02\Dropbox
+11:58.18		-----finished getting dropbox path-----
+
+11:58.18		waiting 1: "C:\Users\Headoo Allinone02\Dropbox"
+11:58.18		-----start closing process id 13940-----
+11:58.18			checking process "13940": 13940
+11:58.18			closed process 13940
+11:58.18			checking process "13940": 1   -   13940
+11:58.19			checking process "13940": 2   -   13940
+11:58.19			checking process "13940": 3   -   13940
+11:58.19			checking process "13940": 4   -   0
+11:58.19			process finished: 4   -   0
+11:58.19			remove system tray icon
+11:58.19			hwnd: 2360240   uid: 0
+11:58.19		-----successfully closed process id 13940-----
+
+11:58.19		-----cleanUp registry key, force: 0, needs cleanup: 0-----
+11:58.19		-----no cleanup needed-----
+
+11:58.19	-----finished monitoring-----
+
+11:58.19	-----releaseCacheFiles-----
+11:58.19	-----releaseCacheFiles finished-----
+
+11:58.19	oldPath: "C:\Users\Headoo Allinone02\Dropbox"
+11:58.19	-----start restoring registry-----
+11:58.19		not necessary to restore
+11:58.19	-----finished restoring registry-----
+
+11:58.19	-----restoring registry-----
+11:58.19		registry_appdata_original matches old value: "C:\Users\Headoo Allinone02\AppData\Roaming" = "C:\Users\Headoo Allinone02\AppData\Roaming"
+11:58.19		registry_personal_original matches old value: "C:\Users\Headoo Allinone02\Documents" = "C:\Users\Headoo Allinone02\Documents"
+11:58.19		registry_lappdata_original matches old value: "C:\Users\Headoo Allinone02\AppData\Local" = "C:\Users\Headoo Allinone02\AppData\Local"
+11:58.19		registry_startup_original matches old value: "C:\Users\Headoo Allinone02\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" = "C:\Users\Headoo Allinone02\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+11:58.19	-----finished restoring registry-----
+
+11:58.19	checking for created dropbox shortcut at: C:\Users\Headoo Allinone02\Desktop
+11:58.19	no dropbox shortcut detected
+11:58.19	checking for created dropbox folder at C:\Users\Headoo Allinone02\Dropbox
+11:58.19	removing created dropbox folder
+11:58.19	filecount: 1
+11:58.28	restart explorer.exe
+11:58.28	installation completed, waiting for user to finish
+11:58.45	-----start managing config file: C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\config.ini-----
+11:58.45	-----finished managing config file-----
+
+11:58.47	-----exit subroutine starting-----
+11:58.47		-----start closing upgrading processes-----
+11:58.47			no upgrade processes are running
+11:58.47		-----finished closing upgrading processes-----
+
+11:58.47		-----start closing process id 13940-----
+11:58.47			checking process "13940": 0
+11:58.47		-----process 13940 does not run-----
+
+11:58.47		-----start deleting db upgrade files in "C:\Dropbox\.dropbox.cache"-----
+11:58.47		-----finished deleting db upgrade files-----
+
+11:58.47		-----releaseCacheFiles-----
+11:58.47		-----releaseCacheFiles finished-----
+
+11:58.47		closing DropboxDB
+11:58.47		-----start restoring registry-----
+11:58.47			not necessary to restore
+11:58.47		-----finished restoring registry-----
+
+11:58.47		-----restoring registry-----
+11:58.47			registry_appdata_original matches old value: "C:\Users\Headoo Allinone02\AppData\Roaming" = "C:\Users\Headoo Allinone02\AppData\Roaming"
+11:58.47			registry_personal_original matches old value: "C:\Users\Headoo Allinone02\Documents" = "C:\Users\Headoo Allinone02\Documents"
+11:58.47			registry_lappdata_original matches old value: "C:\Users\Headoo Allinone02\AppData\Local" = "C:\Users\Headoo Allinone02\AppData\Local"
+11:58.47			registry_startup_original matches old value: "C:\Users\Headoo Allinone02\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" = "C:\Users\Headoo Allinone02\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+11:58.47		-----finished restoring registry-----
+
+11:58.47		-----start unregistering the Dropbox extension, file: C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\profile\AppData\Roaming\Dropbox\bin\DropboxExt64.24.dll-----
+11:58.47			-----start unregistering dll: C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\profile\AppData\Roaming\Dropbox\bin\DropboxExt64.24.dll-----
+11:58.47			-----finished unregistering dll, result: 3-----
+
+11:58.47			dll was the dummy file
+11:58.47			original file exists, use it
+11:58.47			-----start unregistering dll: C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\profile\AppData\Roaming\Dropbox\bin\DropboxExt64.24.dll.notavailable-----
+11:58.47			-----finished unregistering dll, result: 0-----
+
+11:58.47		-----finished unregistering the Dropbox extension, result: 1-----
+
+11:58.47		-----start copying current db config from: .dbfiles\profile\AppData\Roaming\Dropbox\instance1\config.dbx to: C:\wamp\www\windows-usb-content\DropboxPortableAHK\.dbfiles\configs\2E09E643A7387ACD.dbx-----
+11:58.47			encryption disabled, just copy
+11:58.47			copy user key backup file
+11:58.47			errorlevel: 0
+11:58.47		-----finished copying current db config-----
+
+11:58.47		-----cleanUp registry key, force: 0, needs cleanup: 0-----
+11:58.47		-----no cleanup needed-----
+
+11:58.47		-----start running user commands after-----
+11:58.47			-----start running user commands-----
+11:58.47			-----finished running user commands-----
+
+11:58.47		-----finished running user commands after-----
+
+11:58.47	-----shutting down.. bye-----
+
